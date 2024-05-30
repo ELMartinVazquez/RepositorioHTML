@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(12, 12, 54);
+    color: #333;
+    margin: 20px;
+  }
+
+  .titulo{
+    color: white;
+    font-weight: bold;
+  }
+  .parrafo{   
+    color: white;
+    line-height: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    
+ }
+ .cards{
+    border: 3px solid white;
+    border-radius: 10%;
+    width: fit-content; /*Hace el borde segun el contenido*/
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+
+    
+
+ }
+
+ #menu:hover{
+    background-color: rgb(178, 250, 186);
+    border-radius: 3em;
+ }
+
+  
+  #tituloprincipal{
+    background-color: rgb(38, 51, 136);
+    border-radius: 10em;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    padding: 0.1px;
+    margin-block-end: 2em;
+    
+  }
+   #menu{
+    background-color:rgb(224, 161, 78);
+    border-radius: 0.5em;
+    width: 60vw;
+    margin:auto;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-block-end: 3em;
+    
+   }
+   
+
+   

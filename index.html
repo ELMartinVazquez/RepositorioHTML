@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Mi Primer Sitio Web</title>
 </head>
 <body>
     <header>
-        <h1>LENGUAJES DE PROGRAMACIÓN</h1>
-        <span>CURSOS</span>
-        <span>TUTORIALES</span>
-        <span>LIBROS</span>
-
+        <div class="titulo" id="tituloprincipal">
+            <h1>LENGUAJES DE PROGRAMACIÓN</h1>
+        </div>
+        <div class="titulo" id="menu">
+            <span>CURSOS</span>
+            <span>TUTORIALES</span>
+            <span>LIBROS</span>
+        </div>
+        
     </header>
     <main>
         <section>
-            <h3>Lenguaje de PHP</h3>
-            <div>
-                <p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
+            <div class="titulo">
+                <h3>Lenguaje de PHP</h3>
             </div>
            
+            <div class="parrafo">
+                <p>PHP (acrónimo recursivo de PHP: Hypertext Preprocessor) es un lenguaje de código abierto muy popular especialmente adecuado para el desarrollo web y que puede ser incrustado en HTML.</p>
+            </div>
+           <div class="cards">
             <img src="./php.jpg" width="400" height="200">
-            <p>Puede usarlo para crear: </p>
-            <div>
+           </div>
+            
+           
+            <div class="parrafo">
+                <p>Puede usarlo para crear: </p>
                 <ul>
                     <li>Sitios web dinamicos</li>
                     <li>Blogs</li>
@@ -35,15 +46,20 @@
 
         </section>
         <section>
-            <h3>Lenguaje de Python</h3>
-            <div>
+            <div class="titulo">
+                <h3>Lenguaje de Python</h3>
+            </div>
+            
+            <div class="parrafo">
                 <p>Python es un lenguaje de programación que te permite trabajar rápidamente
                     e integrar sistemas de manera más efectiva. La misión de Python Software Foundation es promover, proteger y hacer avanzar el lenguaje de programación Python, y apoyar y facilitar el crecimiento de una comunidad diversa e internacional de programadores de Python.</p> 
             </div>
+            <div class="cards">
+                <img src="./python.jpg" width="400" height="200">
+            </div>
            
-            <img src="./python.jpg" width="400" height="200">
-            <p>Python es usado en prácticamente todos los sectores de la industria y de la ciencia que puedas imaginar, incluyendo:</p>
-            <div>
+            <div class="parrafo">
+                <p>Python es usado en prácticamente todos los sectores de la industria y de la ciencia que puedas imaginar, incluyendo:</p>
                 <ul>
                     <li>Ciencia de datos</li>
                     <li>Aprendizaje automatico (Machine Learning)</li>
@@ -58,14 +74,21 @@
 
         </section>
         <section>
-            <h3>Lenguaje de JAVA</h3>
-            <div>
-                <p>Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems</p>
+            <div class="titulo">
+                <h3>Lenguaje de JAVA</h3>
             </div>
             
-            <img src="./java.jpg" width="400" height="200">
-            <p>Java es un lenguaje de programación extremadamente versátil. Se puede usar para: </p>
-            <div>
+            <div class="parrafo">
+                <p>Java es un lenguaje de programación y una plataforma informática que fue comercializada por primera vez en 1995 por Sun Microsystems</p>
+            </div>
+            <div class="cards">
+                <img src="./java.jpg" width="400" height="200">
+            </div>
+            
+           
+            
+            <div class="parrafo">
+                <p>Java es un lenguaje de programación extremadamente versátil. Se puede usar para: </p>
                 <ul>
                     <li>Programar Software</li>
                     <li>Aplicaciones para muchos sistemas operativos y dispositivos difererentes</li>
@@ -79,7 +102,8 @@
 
     </main>
     <footer>
-        <p>Visitanos en:</p>
+        <div class="parrafo">
+            <p>Visitanos en:</p>
         
             <a href="https://www.facebook.com/">Facebook</a>
             <br>
@@ -88,7 +112,8 @@
             <br>    
        
             <a href="https://web.telegram.org/a/">Telegram</a>
-      
+        </div>
+        
         
     </footer>
    
